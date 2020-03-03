@@ -117,9 +117,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nice bro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bew-mh-mDm">
-                                                    <rect key="frame" x="79" y="282" width="62" height="21"/>
+                                                    <rect key="frame" x="-281" y="282" width="0.0" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="62" id="CVd-mo-7Tx"/>
                                                         <constraint firstAttribute="height" constant="21" id="OGW-by-KEg"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -129,7 +128,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="bew-mh-mDm" firstAttribute="leading" secondItem="34e-7c-Z47" secondAttribute="trailing" constant="30" id="A7o-Bk-wR1"/>
-                                                <constraint firstItem="34e-7c-Z47" firstAttribute="top" secondItem="f1h-om-RGr" secondAttribute="bottom" constant="8" id="APO-iy-tnE"/>
                                                 <constraint firstItem="34e-7c-Z47" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leadingMargin" id="Bp9-QC-HVE"/>
                                                 <constraint firstAttribute="trailing" secondItem="f1h-om-RGr" secondAttribute="trailing" constant="8" id="FX6-Fp-c2S"/>
                                                 <constraint firstItem="34e-7c-Z47" firstAttribute="top" secondItem="f1h-om-RGr" secondAttribute="bottom" constant="8" id="Fx7-VD-GBQ"/>
@@ -139,7 +137,6 @@
                                                 <constraint firstItem="f1h-om-RGr" firstAttribute="top" secondItem="0FW-Y2-ZZ9" secondAttribute="top" constant="11" id="Te5-24-syY"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bew-mh-mDm" secondAttribute="trailing" constant="265" id="aNM-Ng-5gr"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="34e-7c-Z47" secondAttribute="bottom" constant="128" id="fxc-Sm-5FD"/>
-                                                <constraint firstItem="bew-mh-mDm" firstAttribute="leading" secondItem="34e-7c-Z47" secondAttribute="trailing" constant="30" id="t6w-RL-Rg7"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
