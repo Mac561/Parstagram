@@ -1,15 +1,18 @@
 //
-//  commentCell.swift
+//  CommentCell.swift
 //  Parstagram
 //
-//  Created by Mac Cooper on 3/6/20.
+//  Created by Mac Cooper on 3/7/20.
 //  Copyright © 2020 Mac Cooper. All rights reserved.
 //
 
 import UIKit
 
-class commentCell: UITableViewCell {
+class CommentCell: UITableViewCell {
 
+    @IBOutlet weak var commentLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
