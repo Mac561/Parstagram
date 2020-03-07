@@ -99,44 +99,34 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="342"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-om-RGr">
-                                                    <rect key="frame" x="12" y="11" width="394" height="163"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-om-RGr">
+                                                    <rect key="frame" x="8" y="8" width="0.0" height="0.0"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="394" id="36A-xC-PBP"/>
-                                                        <constraint firstAttribute="height" constant="263" id="gyd-Rl-MHA"/>
+                                                        <constraint firstAttribute="width" secondItem="f1h-om-RGr" secondAttribute="height" multiplier="398:299" id="Q7b-hX-GWx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34e-7c-Z47">
-                                                    <rect key="frame" x="16" y="182" width="350" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="263" id="0Zs-jF-RML"/>
-                                                        <constraint firstAttribute="width" constant="350" id="iz3-mu-o7o"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="8" y="313.66666666666669" width="31" height="20.333333333333314"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nice bro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bew-mh-mDm">
-                                                    <rect key="frame" x="16" y="211" width="239" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="Dhy-lN-48b"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="239" id="IMK-Sm-lQN"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="47" y="16" width="62" height="318"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="bew-mh-mDm" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leading" constant="16" id="0jD-Qu-eN7"/>
-                                                <constraint firstAttribute="trailing" secondItem="bew-mh-mDm" secondAttribute="trailing" constant="154" id="1zA-02-Gz8"/>
-                                                <constraint firstItem="34e-7c-Z47" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leadingMargin" id="Bp9-QC-HVE"/>
-                                                <constraint firstAttribute="trailing" secondItem="f1h-om-RGr" secondAttribute="trailing" constant="8" id="FX6-Fp-c2S"/>
-                                                <constraint firstItem="34e-7c-Z47" firstAttribute="top" secondItem="f1h-om-RGr" secondAttribute="bottom" constant="8" id="Fx7-VD-GBQ"/>
-                                                <constraint firstItem="f1h-om-RGr" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leading" constant="12" id="Nsp-Qq-b9K"/>
-                                                <constraint firstItem="f1h-om-RGr" firstAttribute="top" secondItem="0FW-Y2-ZZ9" secondAttribute="top" constant="11" id="Te5-24-syY"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="34e-7c-Z47" secondAttribute="bottom" constant="128" id="fxc-Sm-5FD"/>
-                                                <constraint firstItem="bew-mh-mDm" firstAttribute="top" secondItem="34e-7c-Z47" secondAttribute="bottom" constant="8" id="v68-QZ-VZL"/>
+                                                <constraint firstItem="f1h-om-RGr" firstAttribute="top" secondItem="0FW-Y2-ZZ9" secondAttribute="top" constant="8" id="2Of-ax-iTb"/>
+                                                <constraint firstItem="f1h-om-RGr" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leading" constant="8" id="RQf-oT-Y3q"/>
+                                                <constraint firstItem="34e-7c-Z47" firstAttribute="leading" secondItem="0FW-Y2-ZZ9" secondAttribute="leading" constant="8" id="XRz-w3-ZvU"/>
+                                                <constraint firstAttribute="bottom" secondItem="34e-7c-Z47" secondAttribute="bottom" constant="8" id="Xn9-aK-sfX"/>
+                                                <constraint firstItem="bew-mh-mDm" firstAttribute="leading" secondItem="34e-7c-Z47" secondAttribute="trailing" constant="8" id="ZoT-GX-vMF"/>
+                                                <constraint firstAttribute="trailing" secondItem="f1h-om-RGr" secondAttribute="trailing" constant="8" id="bq5-Hm-I6s"/>
+                                                <constraint firstItem="bew-mh-mDm" firstAttribute="top" secondItem="f1h-om-RGr" secondAttribute="bottom" constant="8" id="on3-BC-Wk8"/>
+                                                <constraint firstAttribute="bottom" secondItem="bew-mh-mDm" secondAttribute="bottom" constant="8" id="xmd-ef-AcW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -184,7 +174,7 @@
                     <navigationItem key="navigationItem" id="prc-bZ-Ob4">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="ASa-v2-ELJ">
                             <connections>
-                                <action selector="onLogoutButton:" destination="Ukf-C4-mSy" id="Qch-mh-xOU"/>
+                                <action selector="onLogoutButton:" destination="Ukf-C4-mSy" id="S5U-lB-GAV"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="0xB-GZ-8Te">
