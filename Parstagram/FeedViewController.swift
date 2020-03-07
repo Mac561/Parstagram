@@ -80,13 +80,17 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
         func onLogoutButton(_ sender: Any) {
-        PFUser.logOut()
-        let main = UIStoryboard(name: "main", bundle: nil)
-        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
-        
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        
-        delegate.window?.rootViewController = loginViewController
+        PFUser.logOutInBackground(block: {(error) in
+            if let error = error {
+                print(error.localizedDescription)
+            }else{
+                print("Successful logpot")
+                let main = UIStoryboard(name: "main", bundle: nil)
+                let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+                let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+                sceneDelegate.window?.rootViewController = loginViewController
+            }
+        })
         }
     
     }
